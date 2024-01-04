@@ -1,0 +1,294 @@
+@media(max-width: 700px){
+    .container{flex-direction: column;}}
+    
+/* =================for all legend tag one code ============== */
+legend{
+    background-color: black;
+    color: #00c3ff;
+    padding: 5px 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+   
+  }
+/* ====================nav bar section start ====================== */
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+.navbar .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  font-size: 10px;
+}
+.navbar .nav-item {
+    background-color: rgb(0, 184, 240);
+  font-size: 10px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+
+/* ==============home page image section start ================ */
+
+.homecontent {
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0.5em 0.5em;
+
+}
+
+
+.portimg {
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 500px;
+    margin-top: 10px;
+    float: right;
+}
+
+.portimg:hover {
+    background-color: #000000;
+    box-shadow: 0px 30px 30px 0px rgb(255, 255, 255);
+    transition: 0.9s;
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 7%;
+}
+
+
+.homecontent:hover {
+    box-shadow: 10px 10px 15px 5px rgba(1, 1, 1, 100);
+    /* transform: rotate(5deg); */
+    /* transform: matrix3d(5deg); */
+    transition: 0.3s;
+    margin-top: 40px;
+}
+
+
+/* =====================about section start  ======================*/
+
+.aboutimg {
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 10px;
+    float: left;
+}
+
+
+
+.aboutimg:hover {
+    background-color: #000000;
+    box-shadow: 0px 30px 30px 0px rgb(255, 255, 255);
+    transform: rotate(5deg);
+    transform: matrix3d(5deg);
+    transition: 0.3s;
+    margin-top: 40px;
+    padding: 1%;
+
+}
+
+
+
+.about {
+    /* margin-top: 50px; */
+    /* font-size: 18px; */
+    border-radius: 10px;
+    /* width: 100%; */
+    line-height: 25px/1.5;
+    box-shadow: rgba(0, 0, 0, 0.1) 0.5em 0.5em;
+
+}
+
+.about:hover {
+    box-shadow: 10px 10px 15px 5px rgba(1, 1, 1, 100);
+    /* transform: rotate(5deg); */
+    /* transform: matrix3d(5deg); */
+    transition: 0.3s;
+    margin-top: 40px;
+}
+
+
+/* ==================education section start=======================  */
+
+.educationimg {
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 10px;
+    float: left;
+}
+
+
+
+.educationimg:hover {
+    background-color: #000000;
+    box-shadow: 0px 30px 30px 0px rgb(255, 255, 255);
+    transform: rotate(5deg);
+    transform: matrix3d(5deg);
+    transition: 0.3s;
+    /* margin-top: 40px; */
+    /* padding: 5%; */
+
+}
+
+
+/* ================== soft skill section start=======================  */
+
+
+
+.softskillimg {
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 10px;
+    float: left;
+}
+
+
+
+.softskillimg:hover {
+    background-color: #000000;
+    box-shadow: 0px 30px 30px 0px rgb(255, 255, 255);
+    transform: rotate(5deg);
+    transform: matrix3d(5deg);
+    transition: 0.3s;
+    /* margin-top: 40px; */
+    /* padding: 5%; */
+
+}
+
+
+
+/* ========================programming skills ====================== ==*/
+
+.card {
+    background-color: #00c3ff;
+    box-shadow: 0px 30px 30px 0px rgb(255, 255, 255);
+    transition: 0.3s;
+    /* width: 30%; */
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    margin-left: 40px;
+    
+
+    /* flex-wrap: wrap; */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 0, 0);
+}
+
+
+
+/* ====================services section styling ====================*/
+
+
+.services .serv-content .cardd {
+    width: calc(50% - 20px);
+    background: #222;
+    /* display: flex; */
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .cardd:hover {
+    background: #00c3ff;
+    box-shadow: 10px 10px 15px 5px rgba(1, 1, 1, 100);
+    /* transform: rotate(5deg); */
+    /* transform: matrix3d(5deg); */
+    transition: 0.3s;
+    margin-top: 40px;
+
+}
+
+.services .serv-content .cardd .box {
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .cardd:hover .box {
+    transform: scale(1.05);
+}
+
+.services .serv-content .cardd i {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}
+
+.services .serv-content .cardd:hover i {
+    color: #fff;
+}
+
+.services .serv-content .cardd .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+
+/* ================contact section styling ===================*/
+.text{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+
+
+/*================== footer section styling====================== */
+footer {
+    background: #111;
+    /* padding: 15px 23px; */
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+
+@media (max-width: 768px) {
+    .flip-card{
+        width: 700px;
+    }
+    .flip-card-front
+    {
+        width: 300px;
+    }
+    .flip-card-back{
+        width: 300px;
+
+    }
+}
